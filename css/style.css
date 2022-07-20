@@ -1,0 +1,46 @@
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+
+h2 {
+    margin-top: 3px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 870px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+/* top players style */
+.top-players {
+}
+
+.section-title {
+    color: #562eff;
+    font-size: 24px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.players .player img {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+
